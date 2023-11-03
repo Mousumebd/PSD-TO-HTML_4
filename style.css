@@ -1,0 +1,890 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.aligenleft{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.aligenright{
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.aligencenter{
+  display: block;
+  margin: 0 auto 15px;
+ 
+}
+
+/*===================================================
+Css header 
+===================================================*/
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin-left: 100px;
+ 
+}
+.icon{
+  width: 200px;
+  height: 75px;
+  float: left;
+}
+.logo span{
+  color: #242f51;
+}
+.logo{
+  color: #fcae61;
+  font-size: 35px;
+  padding-top: 20px;
+  
+}
+.manu{
+  width: 600px;
+  height: 70px;
+  float: left;
+  margin-left: 100px;
+}
+.manu ul{
+  float: left;
+  display: flex;
+  
+}
+.manu ul li{
+  margin-left: 65px;
+  list-style: none;
+  margin-top: 40px;
+  font-size: 16px;
+}
+.manu ul li a{
+  text-decoration: none;
+  color: #242f51;
+  transition: 0.4s ease-in-out;
+  font-weight: normal;
+}
+.manu ul li a:hover{
+  color: #fcae61;
+}
+.button{
+  float: right;
+  padding-top: 18px;
+  margin-right: 100px;
+}
+
+.button .btn{
+  display: inline-block;
+  background: #2500f9;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  margin-top: 5px;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+
+}
+.btn:hover{
+  background: #fcae61;
+}
+.row .button{
+  float: left;
+  padding-top: 18px;
+  
+} 
+ .App_of_2020 .btn{
+  display: inline-block;
+  background: #e2eaed;
+  font-size: 14px;
+  color: #242f51;
+  border: none;
+  padding: 6px 30px;
+  border-radius: 30px;
+  transition: background 0.5s;
+  margin-bottom: 20px;
+
+} 
+.row{
+  margin-left: 165px;
+  margin-top: 15%;
+}
+
+h1{
+  color: #242f51;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+p{
+  color: #616368;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.row a{
+  color: #2500f9;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.link_0{
+  margin-top: 50px;
+}
+
+.col_1{
+  float: right;
+  
+}
+.col_1 img{
+  margin-top: -85%;
+  height: auto;
+  max-width: 600px;
+  width: 350px;
+  margin-right: 180px;
+}
+
+.img img{
+width: 100%;
+height: auto;
+margin-top: -100px;
+}
+/*===================================================
+Brand CSS
+===================================================*/
+
+.brand_p{
+  text-align: center;
+  margin-top: 115px;
+  color: #242f51;
+  font-size: 16px;
+  font-weight: normal;
+}
+.brand_logo{
+  margin-top: 65px;
+  margin-left: 180px;
+}
+.brand_logo img{
+  margin-right: 70px;
+}
+/*===================================================
+Awesome_area CSS
+===================================================*/
+#awesome_area{
+  padding: 150px 0;
+}
+
+.apps_img{
+  float: left;
+  margin-left: 70px;
+  width: 550px;
+  margin-top: -100px;
+  
+}
+
+.awesome{
+  float: right;
+  margin-right: 70px;
+  height: auto;
+  
+}
+.awesome h2{
+  color: #242f51;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.awesome p{
+  color: #616368;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.child-awesome{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.child-awesome .awesome_images{
+  width: 15%;
+  float: left;
+  
+}
+.child-awesome .awesome_text{
+  width: 75%;
+  
+}
+
+.color_1{
+  color: #f55767;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.color_2{
+  color: #2500f9;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.color_3{
+  color: #40975f;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.awesome_text p{
+  font-size: 16px;
+  line-height: 1.1em;
+}
+/*===================================================
+ Smart Area CSS
+===================================================*/
+.smart_area{
+  margin-top: 40%;
+  width: 100%;
+  
+}
+
+.smart_area .smart_h4{
+  font-size: 40px;
+  font-weight: bold;
+  color: #242f51;
+  margin-left: 160px;
+  position: relative;
+}
+
+.smart_area .smart_p{
+  float: right;
+  margin-top: -6%;
+  margin-right: 200px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #616368; 
+}
+
+/*===================================================
+ Text_1 Area CSS
+===================================================*/
+.text_1_area{
+  padding: 100px 0;
+}
+
+.child_work{
+  width: 26.33%;
+  float: left;
+  margin: 0 1% 10px;
+}
+
+.automatic_area{
+  margin-left: 160px;
+}
+.bigger_area{
+  margin-right: 0;
+}
+.text_1_img{
+  padding-bottom: 40px;
+}
+.text_1 p{
+  color: #616368;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/*===================================================
+ 2_Area CSS
+===================================================*/
+.area_2{
+  padding-top: 15%;
+  margin-bottom: 50%;
+}
+.work_2{
+  width: 45.33%;
+  float: left;
+  margin: 0 1% 10px;
+}
+.row_im{
+  margin-left: 80px;
+}
+.row_im img{
+  width: 80%;
+  height: auto;
+}
+.row_text{
+  margin-right: 0;
+  margin-top: 60px;
+}
+.row_text h5{
+  font-size: 36px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 20px;
+}
+.row_text p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #616368;
+  
+}
+.area_2 .button{
+  float: right;
+  margin-right: 76%;
+}
+
+.area_2 .btn{
+  display: inline-block;
+  background: #2500f9;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  margin-top: 2px;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+.btn:hover{
+  background: #fcae61;
+}
+
+/*===================================================
+App Area CSS
+===================================================*/
+.app_area{
+  float: left;
+}
+.app_text_1{
+  text-align: center;
+}
+.app_text_1 h6{
+  color: #242f51;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.app_text_1 p{
+  color: #616368;
+  font-size: 16px;
+  font-weight: normal;
+}
+.app_main_area{
+  padding-top: 2%;
+}
+
+.work_3{
+ width: 32.33%;
+ text-align: center;
+ display: inline-block;
+}
+.work_3 img{
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.work_3 h3{
+  color: #242f51;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px; 
+}
+.work_3 p{
+  color: #616368;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/*===================================================
+Ultimate Area CSS
+===================================================*/
+.ultimate_area{
+  clear: both;
+  margin-top: 12%;
+  margin-left: 160px;
+  max-width: 100%;
+}
+
+.ultimate_title h2{
+  font-size: 36px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 15px;
+}
+.ultimate_title p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #616368;
+  margin-bottom: 70px;
+}
+
+.work_4{
+  width: 20%;
+  display: inline-block;
+  margin-right: 10%;
+}
+.work_5{
+  width: 20%;
+  display: inline-block;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+.ultimate_text img{
+  padding-bottom: 20px;
+}
+.ultimate_text h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #242f51;
+  padding-bottom: 10px;
+}
+.ultimate_text p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #616368;
+}
+
+.ultimate_right img{
+  float: right;
+  margin-top: -50%;
+  width: 45%;
+  height: auto;
+  margin-right: 0;
+}
+
+
+.button_1{
+  clear: both;
+  float: left;
+  margin-top: 20px;
+  
+}
+
+.button_1 .btn{
+  display: inline-block;
+  background: #2500f9;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  margin-top: 2px;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+.btn:hover{
+  background: #fcae61;
+} 
+
+
+/*===================================================
+Charges Area CSS
+===================================================*/
+.chargea_area{
+  clear: both;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.box_area{
+  background: #f4f7f9;
+  position: relative;
+  min-height: 30px;
+  padding: 15px 0;
+  border-radius: 5px;
+  z-index: 1;
+}
+.box_area::after{
+  background: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 55%;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
+}
+
+.chargea{
+  text-align: center;
+}
+.charges_text h4{
+  font-size: 36px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 20px;
+}
+.charges_text p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #616368;
+  margin-bottom: 80px;
+}
+/*===================================================
+Problam Area CSS
+===================================================*/
+.srch{
+  width: 300px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #2500f9;
+  margin-top: 20px;
+  color: #333;
+  font-size: 16px;
+  border-radius: 15px;
+  text-align: right;
+  align-items: center;
+}
+.btn_1{
+  width: 140px;
+  height: 50px;
+  background: #2500f9;
+  border: 2px solid #2500f9;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.charges_box{
+  clear: both;
+  text-align: center;
+  margin-top: 6%;
+}
+.box_work{
+  display: inline-block;
+  text-align: center;
+}
+.charges_box .box_area{
+  width: 300px;
+  height: auto;
+  margin: 0 60px;
+  padding: 40px 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0 ,0.1);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.charges_box .box_area:hover{
+  transform: translateY(-10px);
+}
+.box_area h4{
+  font-size: 60px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 30px;
+}
+.box_area span{
+  font-size: 16px;
+  font-weight: normal;
+  color: #999ca5;
+}
+.box_area h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 5px;
+}
+.box_mime p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #999ca5;
+}
+
+.box_p p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #999ca5;
+  margin-top: 80px;
+  line-height: 50px;
+}
+.button_2{
+  clear: both;
+}
+
+.button_2 .btn{
+  display: inline-block;
+  background: #2500f9;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  margin-top: 2px;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+.btn:hover{
+  background: #fcae61;
+} 
+.link_a{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.link_a a{
+  color: #2500f9;
+  text-decoration: none;
+  font-size: 16px;
+}
+.box_hr hr{
+  width: 100%;
+  height: 2px;
+  color: #2500f9;
+}
+
+/*===================================================
+Meet Client Area CSS
+===================================================*/
+.client_area{
+  clear: both;
+}
+.client_img{
+  background: url(images/6.png);
+  width: 60%;
+  height: 500px;
+  float: left;
+}
+.client_img img{
+  width: 70px;
+  margin-top: 20px;
+  border-radius: 80%;
+  margin-left: 30px;
+}
+.im_1{
+  margin-left: 110px;
+}
+.im_2{
+  margin-left: 600px;
+  margin-top: -20px;
+}
+.im_3 img{
+  margin-top: -20px;
+}
+.im_4{
+  margin-left: 200px;
+  margin-top: -25px;
+}
+.im_5{
+  margin-left: 50px;
+}
+.im_6{
+  margin-left: 500px;
+  margin-top: -100px;
+}
+.im_7{
+  margin-left: 200px;
+}
+.client_text{
+  margin-right: 40px;
+}
+.client_text h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 20px;
+}
+.client_text h6{
+  font-size: 20px;
+  font-weight: bold;
+  color: #242f51;
+  margin: 20px 0;
+}
+.client_text p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #616368;
+  line-height: 1.5em;
+}
+.client_text .reating{
+  color: #ffcc00;
+  margin-top: 30px;
+}
+
+.ceo{
+  clear: both;
+  float: right;
+  margin-right: 430px;
+  margin-top: -100px;
+}
+.ce_im1 img{
+  width: 80px;
+  margin-top: 20px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+/*===================================================
+Frequently Area CSS
+===================================================*/
+
+.frequently_area{
+  clear: both;
+  margin-top: 20%;
+}
+.frequently_text_1{
+  text-align: center;
+}
+.frequently_text_1 h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 30px;
+}
+.frequently_text_1 p{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5em;
+  color: #616368;
+}
+.frequently_area .text_4{
+  margin-top: 50px;
+  width: 900px;
+  height: 210px;
+  background: #f5f7fa;
+  padding: 50px;
+  align-items: center;
+  margin-left: 220px;
+}
+.frequently_area .text_4 h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 15px;
+}
+.frequently_area .text_4 p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #616368;
+  line-height: 1.5em;
+}
+.text_ar{
+  margin-top: 10px;
+}
+.frequently_area .text_5{
+  width: 900px;
+  height: 50px;
+  background: #f5f7fa;
+  align-items: center;
+  margin-left: 220px;
+  padding: 18px 20px 0px 42px;
+}
+.frequently_area .text_5 .fa-regular{
+  float: right;
+}
+.text_work{
+  margin-bottom: 5px;
+}
+.frequently_area .text_5 p{
+  font-size: 16px;
+  font-weight: bold;
+  color: #242f51;
+}
+
+
+/*===================================================
+Download App Area CSS 
+===================================================*/
+hr{
+  border: none;
+  background: #e5e6e5;
+  height: 1px;
+  margin: 10% 0;
+}
+.download_app{
+  clear: both;
+  margin-top: 15%;
+}
+.app_now{
+ margin-left: 160px;
+}
+.app_now h5{
+  font-size: 46px;
+  font-weight: bold;
+  color: #242f51;
+  margin-bottom: 20px;
+}
+.app_now p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #616368;
+}
+.now_img{
+  margin-top: 30px;
+}
+.now_img_2{
+  float: right;
+}
+.now_img_2 img{
+  width: 80%;
+  float: right;
+  margin-top: -30%;
+}
+
+/*===================================================
+Footer Area CSS 
+===================================================*/
+
+footer{
+  background: #09142e;
+  color: #fff;
+  font-size: 16px;
+  padding: 60px 0px 20px;
+  margin-top: 6%;
+}
+
+footer .icon_2{
+  width: 200px;
+  height: 75px;
+}
+footer .logo_2 span{
+  color: #fff;
+}
+footer .logo_2{
+  color: #fcae61;
+  font-size: 35px;
+  padding-top: 20px;
+  text-align: center;
+}
+.footer_manu{
+  text-align: center;
+  margin-left: 350px;
+}
+.footer_manu ul{
+  text-align: center;
+  display: flex;
+}
+.footer_manu ul li{
+  margin-left: 65px;
+  list-style: none;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.footer_manu ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+  font-weight: normal;
+}
+.footer_manu ul li a:hover{
+  color: #fcae61;
+}
+.footer_media_icon{
+  text-align: center;
+}
+.footer_media_icon .fa-brands{
+  margin: 30px 20px;
+  font-size: 30px;
+  color: #273043;
+}
+.footer_media_icon .fa-sharp{
+  margin: 30px 20px;
+  font-size: 30px;
+}
+.footer_copyright{
+  margin:  60px 0;
+}
+.footer_copyright p{
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  color: #323943;
+}
